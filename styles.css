@@ -43,7 +43,7 @@ a:hover {
   justify-content: center;
   background-color: #FFFFFF;
   background-image: linear-gradient(to bottom, #0073e6, #ffffff);
-  margin: auto;
+  margin: 1rem;
 }
 
 h1 {
@@ -140,7 +140,7 @@ h3 {
   color: #ffffff;
 }
 
-/* Media Queries para telas menores */
+
 @media (max-width: 800px) {
   a {
     font-size: 1.2em;
@@ -153,6 +153,7 @@ h3 {
 
   #welcome-section > p {
     font-size: 1.2rem;
+    margin: 0.8;
   }
 
   .projects {
@@ -197,6 +198,7 @@ h3 {
 
   #welcome-section > p {
     font-size: 1rem;
+    margin: 0.6rem;
   }
 
   .projects {
